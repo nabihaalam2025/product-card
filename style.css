@@ -1,0 +1,193 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e2eaecfd;
+    padding: 100px;
+}
+
+.contain-text {
+    text-align: center;
+    padding: 25px;
+}
+
+.contain-text h2 {
+    font-size: 35px;
+    color: #333;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.contain-text span {
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1c1a1a;
+    
+}
+.contain-text p {
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #181818;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 180px;
+}
+
+.product-container img {
+    height: 350px;
+}
+
+.product-card {
+    background: #fff;
+    width: 400px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.381);
+    transition: 0.5s;
+}
+
+.product-card:hover {
+    transform: translateY(-15px);
+}
+
+.product-card h2 {
+    padding: 10px;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-card p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #444;
+}
+
+.product-card h3 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #444;
+    padding: 15px;
+}
+
+.product-card button {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgb(198, 212, 225);
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+
+.product-card button:hover {
+    background: #bec6d7;
+}
+
+@media (max-width: 1645px) {
+
+    .product-card {
+        width: 300px;
+    }
+
+    .product-card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 1321px) {
+    .product-card {
+        width: 200px;
+    }
+
+    .product-card h2 {
+        font-size: 20px;
+    }
+
+    .product-card p {
+        font-size: 15px;
+    }
+
+    .product-card button {
+        padding: 10px;
+    }
+
+    .product-card img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .product-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .product-card {
+        width: 500px;
+    }
+
+    .product-card img {
+        height: 250px;
+    }
+
+    .product-card h2 {
+        font-size: 25px;
+    }
+
+    .product-card p {
+        font-size: 18px;
+    }
+
+    .product-card button {
+        padding: 15px;
+    }
+
+    .contain-text {
+        text-align: center;
+    }
+
+
+}
+
+
+@media (max-width: 745px) {
+    .product-card {
+        width: 200px;
+    }
+
+    .product-card h2 {
+        font-size: 20px;
+    }
+
+    .product-card p {
+        font-size: 15px;
+    }
+
+    .product-card button {
+        padding: 10px;
+    }
+
+    .product-card img {
+        height: 150px;
+    }
+
+    .contain-text {
+        font-size: 10px;
+    }
+}
+
+
